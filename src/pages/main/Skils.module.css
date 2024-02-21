@@ -1,0 +1,74 @@
+.content{
+    padding: 40px;
+    height: 100%;
+}
+
+.content h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.skils_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.skils_content img{
+    width: 380px;
+}
+
+.skil{
+    background-color: #703e78;
+    color: #e4e4e4;
+    width: 380px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.skil:first-child{
+    margin-bottom: 20px;
+}
+
+.skil li{
+    
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin-top: 8px;
+    transition: 1s;
+    margin-left: 25px;
+    min-width: 160px;
+}
+.skil li:hover{
+   text-decoration: underline;
+   margin-left: 35px;
+   transition: .8s;
+}
+
+
+@media (max-width: 530px){
+    
+    .content h1{
+        font-size: 25px;
+    }
+    .content h2{
+        font-size: 18px;
+    }
+    .skil{
+        width: 300px;
+    }
+    .skil li{
+        font-size: 14px;
+        margin-left: 15px;
+    }
+    .skil li:hover{
+        margin-left: 25px;
+     }
+     .skils_content img{
+        width: 300px;
+    }
+}

@@ -1,0 +1,35 @@
+.content{
+    padding-top: 20px;
+    padding: 20px 20px 0;
+    color: #fff;
+    /* color: #ffdf0f; */
+    text-align: center;
+}
+
+.content h1{
+    color: #ddb4e4;
+}
+
+.projects{
+    display: grid;
+    column-gap: 20px;
+    row-gap: 20px;
+    justify-content: center;
+    /* grid-template-rows: 200px 200px; */
+    padding-top: 20px;
+    grid-template-columns: 320px 320px 320px;
+    
+}
+
+@media (max-width: 1086px){
+    .projects{
+        grid-template-columns: repeat(auto-fill, 320px);
+    }
+}
+
+
+@media (max-width: 530px){
+    .content h1{
+        font-size: 25px;
+    }
+}
