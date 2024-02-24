@@ -45,7 +45,7 @@ position: relative;
     position: relative;
     width: 500px;
     z-index: 1;
-    margin: 40px 20px -4px -58px;
+    margin: 40px 20px 18px -58px;
 }
 
 @media (max-width: 1068px){
