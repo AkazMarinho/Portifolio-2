@@ -27,7 +27,6 @@ export default function Profile() {
                         <FaLinkedin/>
                     </button>
                 </a>
-
             </div>
 
         </div>
