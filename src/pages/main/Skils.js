@@ -42,8 +42,11 @@ export default function Skils() {
         }
 
     }
+
+    const [arrowInfo, setArrowInfo] = useState(false);
   const skilContent = (e) => {
     const value = e.target.value;
+    setArrowInfo(true);
 
     switch (value) {
         case 1:
@@ -104,13 +107,13 @@ export default function Skils() {
         default:
             setMostrarDiv1(false);
             setMostrarDiv2(false);
-
     }
   }
 
   const esconderDiv = () => {
+    setArrowInfo(false);
     setMostrarDiv1(false);
-    setContentSkils(null)
+    setContentSkils(null);
     setMostrarDiv2(false);
   };
 
@@ -137,7 +140,7 @@ export default function Skils() {
                         <li onMouseEnter={skilContent} onMouseLeave={esconderDiv} value={4}><IoIosArrowForward/>Pensamento crítico</li>
                        
                         {mostrarDiv1 === true && (
-                            <div className={`${style.absPos} ${style.floating}`} style={{ top: posicaoDiv.top }}>
+                            <div className={`${style.absPos} ${style.floating}`} style={{ top: posicaoDiv.top  + 5}}>
                                 <div className={`${style.absPos} ${style.floatingDetail}`}>
                                 <MdDoubleArrow/>
                                 </div>
@@ -162,7 +165,7 @@ export default function Skils() {
                         <li onMouseEnter={skilContent} onMouseLeave={esconderDiv} value={9}><IoIosArrowForward/>Java</li>
                        
                         {mostrarDiv2 === true && (
-                            <div className={`${style.absPos} ${style.floating}`} style={{ top: posicaoDiv.top }}>
+                            <div className={`${style.absPos} ${style.floating}`} style={{ top: posicaoDiv.top + 5}}>
                             <div className={`${style.absPos} ${style.floatingDetail}`}>
                             <MdDoubleArrow/>
                             </div>
@@ -185,7 +188,8 @@ export default function Skils() {
         </div>
         <div className={style.interesting}>
             <span>
-                Atualmente, estou inclinado ao desenvolvimento frontend, mas mantenho um grande interesse no backend. Estou dedicando meu tempo aos estudos da tecnologias Java, com a intenção de estabelecer essa linguagem como minha base para essa área específica.
+                Atualmente, estou inclinado ao desenvolvimento frontend, mas mantenho um grande interesse no backend. Estou dedicando meu 
+                tempo aos estudos da tecnologia Java, com a intenção de estabelecer essa linguagem como minha base para essa área específica.
             </span>
         </div>
     </div>

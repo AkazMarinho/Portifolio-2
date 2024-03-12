@@ -1,3 +1,77 @@
 .content{
     color: #fff;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+}
+
+.content_info{
+    text-align: left;
+    display: flex;
+    margin: 30px 20px;
+    padding: 20px 0;
+}
+
+.border_contend{
+    border: 1px solid #5ce3cd;
+    border-top:1px solid #bdf0e7;
+    border-radius: 10px;
+    background-color: rgba(37, 37, 37, 0.961);
+    margin: 29px 19px 29px 19px;
+}
+
+.hovered{
+    color: #5ce3cd;
+}
+
+.date{
+    min-width: 160px;
+    color:#8b8b8b;
+}
+
+.date p{
+    margin-top: 3px;
+    margin-bottom: 6px;
+    font-size: 12px;
+    text-align: right;
+}
+
+.info_datas{
+    margin: 0 20px;
+}
+
+.info_datas span{
+    font-size: 14px;
+}
+
+.info_datas h4{
+    margin-bottom: 6px;
+}
+
+.type{
+    display: block;
+    color: #d7d7d7;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 530px) {
+    .content{
+        padding: 20px 0;
+    }
+
+    .content h1{
+        font-size: 25px;
+    }
+    .content_info{
+        padding: 20px 0;
+        flex-direction: column;
+    }
+    .date{
+        margin-left: 20px;
+        min-width: 77px;
+    }
+
+    .date p{
+        text-align: left;
+    }
+    
 }

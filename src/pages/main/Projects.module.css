@@ -1,13 +1,9 @@
 .content{
     padding-top: 20px;
-    padding: 20px 20px 0;
+    padding: 20px;
     color: #fff;
     /* color: #ffdf0f; */
     text-align: center;
-}
-
-.content h1{
-    color: #ddb4e4;
 }
 
 .projects{
