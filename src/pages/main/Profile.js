@@ -7,27 +7,11 @@ export default function Profile() {
   return (
     <div className={style.content}>
         <div  className={style.contact}>
-            <h1>O</h1>
-            <h1>Dev</h1>
-            <h1>Front-end jr</h1><br />
-            <span>Conheça meu trabalho conform avança nessa página.</span>
+            <h1>Olá &#128075;,</h1>
+            <h1>me chamo Akaz,</h1>
+            <h1>sou dev Front-end. Seja bem vind@</h1><br />
+            <span>Conheça um pouco do meu trabalho nesta pagina</span>
             <br />
-            <br />
-            <span>Ou conheça meus projetos atraves dos links:</span>
-            <br />
-            <br />
-            <div className={style.button}>
-                <a href="http://" target="_blank" rel="noopener noreferrer">
-                    <button>
-                        <FaGithub/>
-                    </button>
-                </a>
-                <a href="http://" target="_blank" rel="noopener noreferrer">
-                    <button>
-                        <FaLinkedin/>
-                    </button>
-                </a>
-            </div>
 
         </div>
         <img src={profile} alt="" />

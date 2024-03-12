@@ -2,7 +2,8 @@
     display: flex;
     justify-content: space-between;
     position: relative;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    overflow: hidden;
 }
 
 .content img{
@@ -67,5 +68,19 @@
 
     .contact {
         height: 700px;
+    }
+}
+
+@media (max-width: 580px){
+
+    .contact {
+        margin: 0 auto;
+    }
+}
+@media (max-width: 370px){
+
+    .contact {
+        height: 760px;
+        margin: 0 auto;
     }
 }
