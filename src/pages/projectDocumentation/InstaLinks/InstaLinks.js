@@ -4,8 +4,13 @@ import { BackToHome, MoreInfo, TemplateCopy, TemplateImgDesktop, TemplateImgMobi
 import homeDesk from './img/desktop.png'
 import homeDeskdark from './img/desktodark.png'
 import mobile from './img/mobile.png'
+import { useEffect } from "react";
 
 export default function InstaLinks() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0); // Rolar para o topo ao montar o componente
+      }, []);
   return (
     <Content>
         <Title>Links de apresentação de redes sociais</Title>
