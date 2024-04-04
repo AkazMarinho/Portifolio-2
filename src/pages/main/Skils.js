@@ -3,11 +3,6 @@ import { IoIosArrowForward } from "react-icons/io";
 import code from '../../img/code.png'
 import { useEffect, useState } from 'react';
 import { MdDoubleArrow } from "react-icons/md";
-import css from '../../img/css.png'
-import js from '../../img/js.png'
-import api from '../../img/api.png'
-import react from '../../img/react.png'
-import java from '../../img/java.png'
 
 
 export default function Skils() {
@@ -77,33 +72,28 @@ export default function Skils() {
         case 5:
             resize([49, 54]);
             setMostrarDiv2(true);
-            setContentSkils({...contentSkils, title: "CSS", text : "Minhas habilidades com CSS envolvem a estilização de páginas da web, controlando a apresentação visual. Desde a definição de cores, fontes e tamanhos até posicionamento e layout, utilizo o CSS para criar designs atraentes e responsivos."});
-
+            setContentSkils({...contentSkils, title: "JavaScript", text : "Desenvolvi conhecimento e me aprofundei em JavaScript, sendo a espinha dorsal da programação web. Domino conceitos como variáveis, loops e funções, além das novas funcionalidades da ES6+, como spread e desestruturação. Isso me permite criar interatividade dinâmica em páginas web, manipular dados e responder a eventos do usuário."});
+            
             break;
         case 6:
             resize([71, 80]);
             setMostrarDiv2(true);
-            setContentSkils({...contentSkils, title: "JavaScript", text : "Desenvolvi conhecimento e me aprofundei em JavaScript, sendo a espinha dorsal da programação web. Domino conceitos como variáveis, loops e funções, além das novas funcionalidades da ES6+, como spread e desestruturação. Isso me permite criar interatividade dinâmica em páginas web, manipular dados e responder a eventos do usuário."});
-
-            break;
-        case 7:
-            resize([96, 104]);
-            setMostrarDiv2(true);
             setContentSkils({...contentSkils, title: "React.js", text : "Ao mergulhar no React.js, aprimorei a construção de interfaces de usuário reativas. Componentes modulares, estados e props são fundamentais, permitindo-me criar diversas aplicações web escaláveis e de fácil manutenção."});
 
             break;
-        case 8:
-            resize([119, 132]);
-            setMostrarDiv2(true);
-            setContentSkils({...contentSkils, title: "Integração de API Rest", text : "Na integração de API Rest, desenvolvi a habilidade de conectar sistemas de Back-end e aplicativos Front-end, trocando dados de forma eficiente. Aprendi a realizar requisições HTTP, processar respostas e integrar informações externas em meus projetos."});
-
-            break;
-        case 9:
-            resize([144, 158]);
+            case 7:
+                resize([96, 104]);
             setMostrarDiv2(true);
             setContentSkils({...contentSkils, title: "Java", text : "Java é uma linguagem versátil e robusta. Adquiri conhecimentos em orientação a objetos, manipulação de exceções e desenvolvimento de aplicações escaláveis, sendo minha referência para aprender Back-end e criar meus próprios endpoints."});
+            
+            break;
+            case 8:
+                resize([119, 132]);
+                setMostrarDiv2(true);
+                setContentSkils({...contentSkils, title: "Spring boot", text : "Utilizo o framework para criar sistema de comunicação do usuario com o banco de dados"});
 
             break;
+
         default:
             setMostrarDiv1(false);
             setMostrarDiv2(false);
@@ -158,11 +148,10 @@ export default function Skils() {
                 <div  className={style.skil}>
                     <h2>Hard Skils</h2>
                     <ul>
-                        <li onMouseEnter={skilContent} onMouseLeave={esconderDiv} value={5}><IoIosArrowForward/>CSS</li>
-                        <li onMouseEnter={skilContent} onMouseLeave={esconderDiv} value={6}><IoIosArrowForward/>JavaScript</li>
-                        <li onMouseEnter={skilContent} onMouseLeave={esconderDiv} value={7}><IoIosArrowForward/>React.js</li>
-                        <li onMouseEnter={skilContent} onMouseLeave={esconderDiv} value={8}><IoIosArrowForward/>Integração de API Rest</li>
-                        <li onMouseEnter={skilContent} onMouseLeave={esconderDiv} value={9}><IoIosArrowForward/>Java</li>
+                        <li onMouseEnter={skilContent} onMouseLeave={esconderDiv} value={5}><IoIosArrowForward/>JavaScript</li>
+                        <li onMouseEnter={skilContent} onMouseLeave={esconderDiv} value={6}><IoIosArrowForward/>React.js</li>
+                        <li onMouseEnter={skilContent} onMouseLeave={esconderDiv} value={7}><IoIosArrowForward/>Java</li>
+                        <li onMouseEnter={skilContent} onMouseLeave={esconderDiv} value={8}><IoIosArrowForward/>Spring boot</li>
                        
                         {mostrarDiv2 === true && (
                             <div className={`${style.absPos} ${style.floating}`} style={{ top: posicaoDiv.top + 5}}>

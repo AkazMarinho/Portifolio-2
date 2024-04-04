@@ -1,0 +1,11 @@
+.svg{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.svg:hover{
+    color: #d8cec8;
+}

@@ -75,12 +75,11 @@
 
     .contact {
         margin: 0 auto;
+        padding: 10px;
     }
-}
-@media (max-width: 370px){
 
-    .contact {
-        height: 760px;
-        margin: 0 auto;
+    .contact h1{
+        z-index: 2;
+        font-size: 30px;
     }
 }

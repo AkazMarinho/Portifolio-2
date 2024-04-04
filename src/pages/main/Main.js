@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { DarkComponent } from "../layouts/DarkComponent";
 import { LightComponent } from "../layouts/LightComponent";
 import { AboutMe } from "./AboutMe";
@@ -9,6 +10,10 @@ import Skils from "./Skils";
 
 
 export function Main() {
+  
+  useEffect(() => {
+    window.scrollTo(0, 0); // Rolar para o topo ao montar o componente
+  }, []);
   return (
     <div>
         <DarkComponent element={<Profile/>}/>
