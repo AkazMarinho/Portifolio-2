@@ -29,6 +29,7 @@ e conta com uma versão responsiva:
 `*: não foi possivel mostrar toda a tela, pois o navegador Chrome aparentemente limita a altura máxima da captura de tela`
 
 - Páginas com informações sobre cada projeto
+
 São paginas reponsavel por detalhar mais sobre cada projeto, com imagens e informações em texto.
 
 ## Dependências e versões 
