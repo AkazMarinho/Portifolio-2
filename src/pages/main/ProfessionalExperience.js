@@ -25,7 +25,7 @@ export default function ProfessionalExperience() {
           role=' Projeto LOGOS' 
           local='UFPA'
           type='Voluntário' 
-          contend='O projeto foi criado para facilitar o gerenciamento de dados de alunos e suas freqeuncias no cursinho popular LOGOS, onde minha contribuição foi criar um sistema WEB de criação, exclusão e listagem de dados de alunos, bem como mostrar, justificar e anular a frequência dos mesmos.'
+          contend='O projeto foi criado para facilitar o gerenciamento de dados de alunos e suas frequências no cursinho popular LOGOS, onde minha contribuição foi criar um sistema WEB de criação, exclusão e listagem de dados de alunos, bem como mostrar, justificar e anular a frequência dos mesmos.'
         />
 
         <Role 
@@ -35,7 +35,7 @@ export default function ProfessionalExperience() {
           role='Suporte Técnico em Telecom' 
           local='Nevoli Telecon'
           type='Estágio' 
-          contend='Minha responsabilidade durante o estagio foram realizar atendimento e suporte tecnico a cliente de telecom, avaiando problemas e apresentado soluções via chat e ligação, tendo acesso remoto a dispositivo como ONU e Roteadores, podendo fazer alterações na rede do usuário, reinicializações e ate mesmo reconfiguraração nesses dispositivos.'
+          contend='Minha responsabilidade durante o estágio foram realizar atendimento e suporte tácnico a cliente de telecom, avaliando problemas e apresentado soluções via chat e ligação, tendo acesso remoto a dispositivo como ONU e Roteadores, podendo fazer alterações na rede do usuário, reinicializações e ate mesmo reconfiguraração nesses dispositivos.'
         />
         <Role 
           inYe={2022} 

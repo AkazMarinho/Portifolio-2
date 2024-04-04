@@ -10,7 +10,7 @@ export default function Profile() {
             <h1>Olá &#128075;,</h1>
             <h1>me chamo Akaz,</h1>
             <h1>sou dev Front-end. Seja bem vind@</h1><br />
-            <span>Conheça um pouco do meu trabalho nesta pagina</span>
+            <span>Conheça um pouco do meu trabalho nesta página</span>
             <br />
 
         </div>

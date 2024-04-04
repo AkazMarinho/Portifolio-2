@@ -28,4 +28,8 @@
     .content h1{
         font-size: 25px;
     }
+
+    .projects{
+        grid-template-columns: repeat(auto-fill, 280px);
+    }
 }

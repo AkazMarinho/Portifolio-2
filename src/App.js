@@ -2,6 +2,7 @@
 
 import './App.css';
 import {Header} from './pages/layouts/Header';
+import { Footer } from './pages/main/Footer';
 import { Main } from './pages/main/Main';
 import { RouterApp } from './router/routerApp';
 
@@ -28,6 +29,8 @@ function App() {
     <div >
       <Header/>
       <RouterApp/>
+
+      <Footer/>
     </div>
   );
 }
