@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Portfolio com informações atualizadas
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Sobre o sistema
 
-## Available Scripts
 
-In the project directory, you can run:
+O sistema web foi desenvolvido com o objetivo de apresentar de forma abrangente minha vida profissional. Nele, são destacadas minhas habilidades técnicas, experiências profissionais e projetos, oferecendo detalhes precisos sobre cada um. Além disso, o sistema também inclui informações de contato para facilitar o acesso e a comunicação. Para garantir uma experiência otimizada para os usuários, foi implementado uma abordagem responsiva, que se adapta perfeitamente a diferentes dispositivos e tamanhos de tela. Isso significa que, independentemente do dispositivo utilizado para acessar o sistema, seja um computador desktop, tablet ou smartphone
 
-### `npm start`
+## Tecnologia utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+O projeto é desenvolvido em [React.js](https://react.dev/), sendo utilizados bibliotecas e funcionalidades dessa tecnologia , [Styled Components](https://styled-components.com/) para o design system de alguns componentes, [React Router Dom](https://reactrouter.com/en/main) para interação entre páginas, [React icons](https://react-icons.github.io/react-icons/) para utilização de ícones.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Telas do projeto
 
-### `npm test`
+- home
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Contém as informções principais do site. 
 
-### `npm run build`
+<div align="center">
+  <img width="600px" src="https://github.com/AkazMarinho/Portifolio-2/assets/58227029/8b359744-2fbc-48ad-bfc0-bf662e33d49a"/>
+</div>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+e conta com uma versão responsiva: 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<div align="center">
+  <img height="600px" src="[https://github.com/AkazMarinho/link-instagram/assets/58227029/0a4c7c07-5451-4e08-b4b8-a009ecbb6412](https://github.com/AkazMarinho/Portifolio-2/assets/58227029/34c15fc6-f6a5-43cb-900d-4dc16407f148)"/>
+</div>
 
-### `npm run eject`
+- Páginas com informações sobre cada projeto
+São paginas reponsavel por detalhar mais sobre cada projeto, com imagens e informações em texto.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Dependências e versões 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+As dependências necessárias para rodar o projetos estão apresentadas abaixo:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.0.1",
+    "react-router-dom": "^6.22.1",
+    "react-scripts": "5.0.1",
+    "styled-components": "^6.1.8",
+ 
+## Possíveis problemas 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+O site pode apresentar problemas na hora de carregar os dados por um pequeno periodo de tempo, porem, sendo perceptível.
 
-## Learn More
+## Próximos passos
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+O sistema será melhorado conforme mais projetos serem desenvolvidos e incluidos.
