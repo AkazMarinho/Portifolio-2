@@ -23,8 +23,10 @@ Contém as informções principais do site.
 e conta com uma versão responsiva: 
 
 <div align="center">
-  <img height="600px" src="[https://github.com/AkazMarinho/link-instagram/assets/58227029/0a4c7c07-5451-4e08-b4b8-a009ecbb6412](https://github.com/AkazMarinho/Portifolio-2/assets/58227029/34c15fc6-f6a5-43cb-900d-4dc16407f148)"/>
+  <img width="400px" src="https://github.com/AkazMarinho/Portifolio-2/assets/58227029/34c15fc6-f6a5-43cb-900d-4dc16407f148"/>
 </div>
+
+`*: não foi possivel mostrar toda a tela, pois o navegador Chrome aparentemente limita a altura máxima da captura de tela`
 
 - Páginas com informações sobre cada projeto
 São paginas reponsavel por detalhar mais sobre cada projeto, com imagens e informações em texto.
